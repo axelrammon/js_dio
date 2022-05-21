@@ -1,0 +1,15 @@
+body {
+  background-color: #ecf0f1;
+}
+
+ul {
+  list-style: none;
+}
+
+#container {
+  background-color: aqua;
+}
+
+#lista {
+  background-color: blue;
+}
