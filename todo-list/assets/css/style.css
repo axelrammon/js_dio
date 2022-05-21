@@ -1,15 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400&display=swap');
+
 body {
-  background-color: #ecf0f1;
+  background-color: #dce0ec;
 }
 
 ul {
   list-style: none;
 }
 
+h1 {
+  font: normal 700 34px 'Ubuntu';
+}
+
+label {
+  font: normal 400 14px 'Ubuntu';
+}
+
+input {
+  background-color: transparent;
+  padding: 5px;
+  border: none;
+  border-bottom: 2px solid #9a8581;
+  outline: none;
+}
+
+button {
+  padding: 5px;
+  background-color: #9a8581;
+  border: none;
+  border-radius: 5px;
+  color: #ecf0f1;
+}
+
 #container {
-  background-color: aqua;
+  background-color: #ccb9b3;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
 }
 
 #lista {
-  background-color: blue;
+  padding: 5px;
+  margin: 15px auto;
+  border-radius: 5px;
+  word-wrap: break-word;
+  max-width: 600px;
+}
+
+#lista li {
+  background-color: #9a8581;
+  margin: 8px 0 8px -40px;
+  max-width: 900px;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+@media (max-width: 360px) {
+  #lista li {
+    max-width: 300px;
+  } 
+}
+
+@media (max-width: 760px) {
+  #lista li {
+    max-width: 500px;
+  } 
+}
+
+@media (max-width: 960px) {
+  #lista li {
+    max-width: 900px;
+  } 
 }
