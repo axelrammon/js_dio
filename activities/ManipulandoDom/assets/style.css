@@ -9,16 +9,13 @@
 button {
   padding: 10px;
   border: none;
-  border-radius: 8px;
-  background-color: #121212;
-  color: #ecf0f1;
+  border-radius: 10px;
   cursor: pointer;
+
 }
 
 #container {
-  background-color: #ecf0f1;
-  color: #121212;
-  height: 95vh;
+  height: 92vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -32,11 +29,19 @@ button {
 }
 
 #rodape {
-  background-color: #121212;
-  color: #ecf0f1;
-  height: 5vh;
+  height: 8vh;
   display: flex;
   justify-content: center;
   align-items: center;
   font: normal 400 18px 'Ubuntu';
+}
+
+.bg-dark {
+  background-color: #121212;
+  color: #ecf0f1;
+}
+
+.bg-light {
+  background-color: #ecf0f1;
+  color: #121212;
 }
